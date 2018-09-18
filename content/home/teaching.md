@@ -13,6 +13,12 @@ widget = "custom"
 weight = 60
 
 +++
+
+### Georgia Tech
+- CS7646: Machine Learning Theory (Spring 2017): Tutor with Prof. Jacob Abernethy
+	* Design and grade homeworks and exams.
+	* Conduct office hours and deliver special lectures.
+
 ### IIT Kanpur
 - ESC101: Fundamentals of Computing (Spring 2017): Tutor with <a href = "https://www.cse.iitk.ac.in/users/rmittal/">Prof. Rajat Mittal</a>
 	* Took weekly tutorials, set up the course exams, labs, and supervised the TAs
