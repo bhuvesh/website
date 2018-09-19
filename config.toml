@@ -158,8 +158,8 @@ defaultContentLanguageInSubdir = false
   weight = 4
 
 [[menu.main]]
-  name = "Activites"
-  url = "#activites"
+  name = "Activities"
+  url = "#activities"
   weight = 5
 
 
