@@ -1,0 +1,10 @@
+#!/bin/bash
+hugo -d bhuvesh.github.io/
+git add -A
+git commit -m $1
+git push origin master
+cd bhuvesh.github.io/
+git add -A
+git commit -m $1
+git push origin master
+cd ..
