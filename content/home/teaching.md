@@ -15,7 +15,7 @@ weight = 60
 +++
 
 ### Georgia Tech
-- [CS7545](https://mltheory.github.io/): Machine Learning Theory (Spring 2017): Tutor with Prof. Jacob Abernethy
+- [CS7545](https://mltheory.github.io/): Machine Learning Theory (Fall 2018): Tutor with Prof. Jacob Abernethy
 	* Design and grade homeworks and exams.
 	* Conduct office hours and deliver special lectures.
 
