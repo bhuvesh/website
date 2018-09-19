@@ -23,6 +23,6 @@ weight = 60
 - ESC101: Fundamentals of Computing (Spring 2017): Tutor with <a href = "https://www.cse.iitk.ac.in/users/rmittal/">Prof. Rajat Mittal</a>
 	* Took weekly tutorials, set up the course exams, labs, and supervised the TAs
 	* Delivered lectures for the [online version](https://onlinecourses.iitk.ac.in/esc101_hindi/#/) of the course as well
-- ESC101: Fundamentals of Computing (Fall 2016) Tutor with <a href = "https://www.cse.iitk.ac.in/users/vinaypn/">Prof. Vinay P. Namboodiri</a>
+- ESC101: Fundamentals of Computing (Fall 2016): Tutor with <a href = "https://www.cse.iitk.ac.in/users/vinaypn/">Prof. Vinay P. Namboodiri</a>
 	* Took weekly tutorials, set up the course exams, labs, and supervised the TAs
 
