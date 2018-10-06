@@ -4,7 +4,7 @@ date = 2013-07-01T00:00:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["**Bhuvesh Kumar**", "Jacob Abernethy", "Rachel Cummings", "Jamie Morgenstern", "Samuel Taggart"]
+authors = ["<b>Bhuvesh Kumar</b>", "Jacob Abernethy", "Rachel Cummings", "Jamie Morgenstern", "Samuel Taggart"]
 
 # Publication type.
 # Legend:
@@ -42,15 +42,7 @@ projects = []
 tags = []
 
 # Links (optional).
-url_pdf = ""
-url_preprint = ""
-url_code = "#"
-url_dataset = "#"
-url_project = "#"
-url_slides = "#"
-url_video = "#"
-url_poster = "#"
-url_source = "#"
+
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
