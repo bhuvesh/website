@@ -1,10 +1,10 @@
 +++
-title = "Privacy, Overfitting, and Truthfulness in Auctions"
-date = 2013-07-01T00:00:00
+title = "Learning Auctions with Robust Incentive Guarantees"
+date = 2019-09-01T00:00:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["<b>Bhuvesh Kumar</b>", "Jacob Abernethy", "Rachel Cummings", "Jamie Morgenstern", "Samuel Taggart"]
+authors = ["Jacob Abernethy", "Rachel Cummings","<b>Bhuvesh Kumar</b>", "Jamie Morgenstern", "Samuel Taggart"]
 
 # Publication type.
 # Legend:
@@ -18,11 +18,11 @@ authors = ["<b>Bhuvesh Kumar</b>", "Jacob Abernethy", "Rachel Cummings", "Jamie 
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "In submission."
-publication_short = "In submission"
+publication = "NeuRIPS, 2019"
+publication_short = "NeuRIPS 2019"
 
 # Abstract and optional shortened version.
-abstract = "This paper studies the problem of designing near-optimal repeated auctions with the goal of maximizing revenue for the seller. The classical approach to optimizing revenue requires a known prior distribution on the demand of the participants in the auction, but this can be replaced with a sequential learning strategy that estimates bidder demand from data. When buyers can participate in multiple rounds, however, they have an opportunity and incentive to strategically adjust their behavior, especially in earlier rounds, to achieve more favorable prices. Such non-truthful behavior is undesirable for many reasons, and in this work we propose a repeated auction framework that is approximately revenue optimal yet limits the bidders' potential for manipulation. The fundamental tool we rely on is *differential privacy*, which helps to ensure weak dependencies in the mechanism from round to round."
+abstract = "We study the problem of learning Bayesian-optimal revenue-maximizing auctions. The classical approach to maximizing revenue requires a known prior distribution on the demand of the bidders, although recent work has shown how to replace the knowledge of a prior distribution with a polynomial sample. However, in an online setting, when buyers can participate in multiple rounds, standard learning techniques are susceptible to strategic overfitting: bidders can improve their long-term wellbeing by manipulating the trajectory of the learning algorithm in earlier rounds. For example, they may be able to strategically adjust their behavior in earlier rounds to achieve lower, more favorable future prices. Such non-truthful behavior can hinder learning and harm revenue.  In this paper, we combine tools from differential privacy, mechanism design, and sample complexity to give a repeated auction that (1) learns bidder demand from past data, (2) is approximately revenue-optimal, and (3) strategically robust, as it incentivizes bidders to behave truthfully."
 
 # Featured image thumbnail (optional)
 image_preview = ""
