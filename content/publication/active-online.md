@@ -1,10 +1,10 @@
 +++
-title = "Bridging Truthfulness and Corruption-robustness in Multi-Armed Bandit Mechanisms"
-date = 2020-06-01T00:00:00
+title = "Active Regret Minimization with Expert Advice"
+date = 2020-02-14T00:00:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["with Jacob Abernethy", "Thodoris Lykouris", "and Yinglun Xu"]
+authors = ["with Jacob Abernethy", "and Venkatesh Saligrama"]
 
 # Publication type.
 # Legend:
@@ -15,14 +15,14 @@ authors = ["with Jacob Abernethy", "Thodoris Lykouris", "and Yinglun Xu"]
 # 4 = Report
 # 5 = Book
 # 6 = Book section
-publication_types = ["0"]
+publication_types = ["3"]
 
 # Publication name and optional abbreviated version.
-publication = "Incentives in Machine Learning, ICML 2020"
-publication_short = "Incentives in Machine Learning Workshop, ICML 2020"
+publication = "in submission"
+publication_short = "in submission"
 
 # Abstract and optional shortened version.
-abstract = "We study pay-per-click auctions where both the principal and the agents employ learning algorithms to learn the click-through-rates and intrinsic values respectively. In this setting, we illustrate a trade-off between a) effective learning in a truthful manner and b) robustness to the presence of adversarial corruptions. We design a mechanism that balances these two conflicting forces and achieves a graceful degradation in performance with the amount of corruption in the data without compromising the performance when there is no corruption. On the way we demonstrate that agent-learning introduces additional challenges in multi-armed bandit mechanisms even at the absence of corruptions, which may be of independent interest."
+abstract = "We consider the classical problem of prediction with expert advice, but with an active learning twist. In this new setting, the algorithm may reorder the sequence of examples on which a prediction is made, it aims to minimize regret as usual, but it can observe only a small fraction of the true labels along the way. We consider a variant of the Hedge algorithm for this setting, and we show that under a very particular combinatorial constraint on the matrix of expert predictions we can obtain a very strong regret guarantee while querying very few labels. This constraint, which we refer to as $\theta$-compactness, can be viewed as a non-stochastic variant of the disagreement coefficient, another popular parameter used to reason about the sample complexity of active learning in the IID setting. We also give a polynomial time algorithm to calculate the $\theta$-compactness of a matrix up to an approximation factor of 3."
 
 # Featured image thumbnail (optional)
 image_preview = ""
