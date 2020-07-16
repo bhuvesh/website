@@ -18,8 +18,8 @@ authors = ["with Jacob Abernethy", "Thodoris Lykouris", "and Yinglun Xu"]
 publication_types = ["0"]
 
 # Publication name and optional abbreviated version.
-publication = "Incentives in Machine Learning, ICML 2020"
-publication_short = "Incentives in Machine Learning Workshop, ICML 2020"
+publication = "Incentives in Machine Learning Workshop, ICML 2020"
+publication_short = "Incentives in Machine Learning, ICML 2020"
 
 # Abstract and optional shortened version.
 abstract = "We study pay-per-click auctions where both the principal and the agents employ learning algorithms to learn the click-through-rates and intrinsic values respectively. In this setting, we illustrate a trade-off between a) effective learning in a truthful manner and b) robustness to the presence of adversarial corruptions. We design a mechanism that balances these two conflicting forces and achieves a graceful degradation in performance with the amount of corruption in the data without compromising the performance when there is no corruption. On the way we demonstrate that agent-learning introduces additional challenges in multi-armed bandit mechanisms even at the absence of corruptions, which may be of independent interest."
