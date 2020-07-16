@@ -7,10 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016 Bhuvesh Kumar</copyright>
+<<<<<<< HEAD
     <lastBuildDate>Sun, 01 Sep 2019 00:00:00 -0400</lastBuildDate>
+=======
+    <lastBuildDate>Mon, 01 Jun 2020 00:00:00 -0400</lastBuildDate>
+>>>>>>> 042faa61fe07208993c4bcd490ab214eb5cfe404
     
 	<atom:link href="http://bhuveshkumar.com/publication_types/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>0</title>
+      <link>http://bhuveshkumar.com/publication_types/0/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 -0400</pubDate>
+      
+      <guid>http://bhuveshkumar.com/publication_types/0/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>1</title>
