@@ -1,10 +1,10 @@
 +++
-title = "Active Regret Minimization with Expert Advice"
-date = 2020-02-14T00:00:00
+title = "Accelerated Parallelizable Projection-Free Algorithm for the Nuclear-Norm Ball Constraint"
+date = 2020-03-14T00:00:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["with Jacob Abernethy", "and Venkatesh Saligrama"]
+authors = ["with Jun-kun Wang, "and Jacob Abernethy"]
 
 # Publication type.
 # Legend:
@@ -22,7 +22,7 @@ publication = "in submission"
 publication_short = "in submission"
 
 # Abstract and optional shortened version.
-abstract = "We consider the classical problem of prediction with expert advice, but with an active learning twist. In this new setting, the algorithm may reorder the sequence of examples on which a prediction is made, it aims to minimize regret as usual, but it can observe only a small fraction of the true labels along the way. We consider a variant of the Hedge algorithm for this setting, and we show that under a very particular combinatorial constraint on the matrix of expert predictions we can obtain a very strong regret guarantee while querying very few labels. This constraint, which we refer to as $ \theta $-compactness, can be viewed as a non-stochastic variant of the disagreement coefficient, another popular parameter used to reason about the sample complexity of active learning in the IID setting. We also give a polynomial time algorithm to calculate the $ \theta $-compactness of a matrix up to an approximation factor of 3."
+abstract = "We consider smooth convex optimization over the nuclear norm ball constraint. The classical algorithm for solving this class of problems is the Frank-Wolfe method, which only needs a top eigenvector computation for its linear optimization oracle and hence avoids the expensive projection on the nuclear norm ball. However, the Frank-Wolfe method is known to have a slow $O(1/T)$ convergence rate and is notoriously hard to accelerate for the nuclear norm ball problem. In this paper, we propose an accelerated projection-free algorithm which can achieve a faster convergence rate and avoids the expensive projection that requires a full matrix decomposition. Our method relies on a different oracle from the linear optimization oracle of Frank-Wolfe, which avoids an existing lower bound result for algorithms that rely on the linear optimization oracle. Still, the cost of our oracle is similar to the cost of the linear optimization oracle of Frank-Wolfe. Furthermore, the calls to the oracle in our method are easily parallelizable and consequently another level of acceleration can be achieved by exploiting multiple computational resources, while parallelization of the calls to the oracle remains an obstacle to the Frank-Wolfe method."
 
 # Featured image thumbnail (optional)
 image_preview = ""
