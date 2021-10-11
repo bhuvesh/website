@@ -1,0 +1,13 @@
+Started building sites ...
+Built site for language en:
+0 draft content
+0 future content
+0 expired content
+10 regular pages created
+18 other pages created
+0 non-page files copied
+3 paginator pages created
+0 tags created
+0 categories created
+3 publication_types created
+total in 15 ms

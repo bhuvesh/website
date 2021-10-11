@@ -1,0 +1,10 @@
+Start building sites … 
+hugo v0.88.1+extended linux/amd64 BuildDate=2021-09-04T13:52:13Z
+WARN 2021/10/10 23:54:21 Page.Hugo is deprecated and will be removed in a future release. Use the global hugo function.
+WARN 2021/10/10 23:54:21 Page.RSSLink is deprecated and will be removed in a future release. Use the Output Format's link, e.g. something like:
+    {{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}{{ end }}
+.File.TranslationBaseName on zero object. Wrap it in if or with: {{ with .File }}{{ .TranslationBaseName }}{{ end }}
+ERROR 2021/10/10 23:54:21 render of "page" failed: "/home/bk/work/website/themes/myacademic/layouts/publication/single.html:29:8": execute of template failed: template: publication/single.html:29:8: executing "publication/single.html" at <(.Params.publication_types) and (ne (index .Params.publication_types 0) "0")>: can't give argument to non-function .Params.publication_types
+ERROR 2021/10/10 23:54:21 render of "page" failed: "/home/bk/work/website/themes/myacademic/layouts/publication/single.html:29:8": execute of template failed: template: publication/single.html:29:8: executing "publication/single.html" at <(.Params.publication_types) and (ne (index .Params.publication_types 0) "0")>: can't give argument to non-function .Params.publication_types
+ERROR 2021/10/10 23:54:21 render of "page" failed: "/home/bk/work/website/themes/myacademic/layouts/publication/single.html:29:8": execute of template failed: template: publication/single.html:29:8: executing "publication/single.html" at <(.Params.publication_types) and (ne (index .Params.publication_types 0) "0")>: can't give argument to non-function .Params.publication_types
+Total in 45 ms
