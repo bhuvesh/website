@@ -1,5 +1,5 @@
 +++
-title = "Learning Auctions with Robust Incentive Guarantees"
+title = "Observation Free Attacks on Stochastic Bandits"
 date = 2021-12-01T00:00:00
 draft = false
 
