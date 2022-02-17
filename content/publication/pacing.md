@@ -45,7 +45,7 @@ tags = []
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
 #url_custom = [] 
-url_custom = [{name = "arXiv", url = "https://arxiv.org/abs/2202.05881"}]
+url_custom = [{name = "arXiv", url = "https://arxiv.org/abs/2202.05881"}, {name = "talk", url = "https://youtu.be/xcPPtnLxDCs"}]
 # Digital Object Identifier (DOI)
 doi = ""
 

@@ -48,6 +48,7 @@ tags = []
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
 #url_custom = [] 
 
+url_custom = [{name = "NeurIPS", url = "https://proceedings.neurips.cc/paper/2021/hash/be315e7f05e9f13629031915fe87ad44-Abstract.html"}]
 # Digital Object Identifier (DOI)
 doi = ""
 
