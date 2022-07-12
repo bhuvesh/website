@@ -47,7 +47,7 @@ tags = []
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
 # url_custom = [{name = "pdf", url = "http://bhuveshkumar.com/pdf/learning_auctions.pdf"},{name = "NeurIPS", url = "http://papers.nips.cc/paper/9334-learning-auctions-with-robust-incentive-guarantees"}, {name = "Poster", url = "http://bhuveshkumar.com/pdf/LearnAuction_poster.pdf"}]
-url_custom = [{Name = "Proceedings", url = "https://proceedings.mlr.press/v162/kumar22a.html"} ]
+url_custom = [{name = "Proceedings", url = "https://proceedings.mlr.press/v162/kumar22a.html"} ]
 
 
 # Digital Object Identifier (DOI)
