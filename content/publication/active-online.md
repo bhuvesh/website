@@ -18,9 +18,7 @@ authors = ["with Jacob Abernethy", "and Venkatesh Saligrama"]
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "International Conference on Machine Learning (ICML) 2022 <br>
-Also selected as oral talk at Complex Feedback in Online Learning Workshop, ICML 2022<br>
-Also presented at Adaptive experimental Design and Active Learning in the Real World Workshop, ICML 2022"
+publication = "International Conference on Machine Learning (ICML) 2022 <br> Also selected as oral talk at Complex Feedback in Online Learning Workshop, ICML 2022<br> Also presented at Adaptive experimental Design and Active Learning in the Real World Workshop, ICML 2022"
 publication_short = "ICML 2022"
 
 # Abstract and optional shortened version.
