@@ -1,6 +1,6 @@
 +++
-title = "Active Regret Minimization with Expert Advice"
-date = 2020-02-14T00:00:00
+title = "ActiveHedge: Hedge meets Active Learning"
+date = 2022-07-17T00:00:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -15,14 +15,16 @@ authors = ["with Jacob Abernethy", "and Venkatesh Saligrama"]
 # 4 = Report
 # 5 = Book
 # 6 = Book section
-publication_types = ["3"]
+publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "in submission"
-publication_short = "in submission"
+publication = "International Conference on Machine Learning (ICML) 2022 <br>
+Also selected as oral talk at Complex Feedback in Online Learning Workshop, ICML 2022<br>
+Also presented at Adaptive experimental Design and Active Learning in the Real World Workshop, ICML 2022"
+publication_short = "ICML 2022"
 
 # Abstract and optional shortened version.
-abstract = "We consider the classical problem of prediction with expert advice, but with an active learning twist. In this new setting, the algorithm may reorder the sequence of examples on which a prediction is made, it aims to minimize regret as usual, but it can observe only a small fraction of the true labels along the way. We consider a variant of the Hedge algorithm for this setting, and we show that under a very particular combinatorial constraint on the matrix of expert predictions we can obtain a very strong regret guarantee while querying very few labels. This constraint, which we refer to as $\\theta $-compactness, can be viewed as a non-stochastic variant of the disagreement coefficient, another popular parameter used to reason about the sample complexity of active learning in the IID setting. We also give a polynomial time algorithm to calculate the $\\theta $-compactness of a matrix up to an approximation factor of 3."
+abstract = "We consider the classical problem of prediction with expert advice, but with an active learning twist. In this new setting, the algorithm may reorder the sequence of examples on which a prediction is made, it aims to minimize regret as usual, but it can observe only a small fraction of the true labels along the way. We consider a variant of the Hedge algorithm for this setting, and we show that under a very particular combinatorial constraint on the matrix of expert predictions we can obtain a very strong regret guarantee while querying very few labels. This constraint, which we refer to as $\\zeta $-compactness, can be viewed as a non-stochastic variant of the disagreement coefficient, another popular parameter used to reason about the sample complexity of active learning in the IID setting. We also give a polynomial time algorithm to calculate the $\\zeta $-compactness of a matrix up to an approximation factor of 3."
 
 # Featured image thumbnail (optional)
 image_preview = ""
@@ -47,7 +49,8 @@ tags = []
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
 # url_custom = [{name = "pdf", url = "http://bhuveshkumar.com/pdf/learning_auctions.pdf"},{name = "NeurIPS", url = "http://papers.nips.cc/paper/9334-learning-auctions-with-robust-incentive-guarantees"}, {name = "Poster", url = "http://bhuveshkumar.com/pdf/LearnAuction_poster.pdf"}]
-url_custom = []
+url_custom = [{Name = "Proceedings", url = "https://proceedings.mlr.press/v162/kumar22a.html"} ]
+
 
 # Digital Object Identifier (DOI)
 doi = ""
