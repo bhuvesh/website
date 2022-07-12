@@ -15,7 +15,7 @@ weight = 1
     "Fairness and Transparency in A.I.",
     "Online Learning",
     "Mechanism Design",
-    "Privacy Preserving A.I.",
+    "Privacy Preserving A.I."
   ]
 
 # List your qualifications (such as academic degrees).
@@ -33,7 +33,7 @@ weight = 1
 
 # Biography
 
-I am a Computer Science PhD candidate in the <a href = "https://www.scs.gatech.edu/"> School of Computer Science</a> at <a href="http://www.gatech.edu/">Georgia Institute of Technology</a>. I am advised by <a href="https://www.cc.gatech.edu/~jabernethy9/">Prof. Jacob Abernethy</a> and <a href="http://jamiemorgenstern.com/">Prof. Jamie Morgenstern</a>. I am broadly interested in machine Learning and algorithmic economics. My work focuses on designing machine learning systems with theoretical foundations operating under the presence of social and economic forces spanning emerging fields such as mechanism design, robust machine learning, active learning, federated learning, and fairness and privacy in machine learning. 
+I am a Computer Science PhD candidate in the <a href = "https://www.scs.gatech.edu/"> School of Computer Science</a> at <a href="http://www.gatech.edu/">Georgia Institute of Technology</a>. I am advised by <a href="https://www.cc.gatech.edu/~jabernethy9/">Prof. Jacob Abernethy</a> and <a href="http://jamiemorgenstern.com/">Prof. Jamie Morgenstern</a>. I am broadly interested in machine Learning and algorithmic economics. My work focuses on designing machine learning systems with theoretical foundations operating under the presence of social and economic forces. It spans emerging fields such as mechanism design, robust machine learning, active learning, federated learning, and fairness and privacy in machine learning. 
 
 I graduated from <a href = "http://www.iitk.ac.in/">IIT Kanpur</a>, India with abachelors degree in Computer Science and Engineering where I worked with <a href="https://www.cse.iitk.ac.in/users/purushot/">Prof. Purushottam Kar</a> and <a href="http://www.prateekjain.org/">Dr. Prateek Jain</a>.
 

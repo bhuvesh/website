@@ -1,10 +1,10 @@
 +++
-title = "Accelerated Parallelizable Projection-Free Algorithm for the Nuclear-Norm Ball Constraint"
-date = 2019-03-14T00:00:00
+title = "Accelerated Federated Optimization with Quantization"
+date = 2019-07-17T00:00:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["with Jun-kun Wang", "and Jacob Abernethy"]
+authors = ["with Yeojoon Youn", "and Jacob Abernethy"]
 
 # Publication type.
 # Legend:
@@ -22,7 +22,7 @@ publication = "in submission"
 publication_short = "in submission"
 
 # Abstract and optional shortened version.
-abstract = "We consider smooth convex optimization over the nuclear norm ball constraint. The classical algorithm for solving this class of problems is the Frank-Wolfe method, which only needs a top eigenvector computation for its linear optimization oracle and hence avoids the expensive projection on the nuclear norm ball. However, the Frank-Wolfe method is known to have a slow $O(1/T)$ convergence rate and is notoriously hard to accelerate for the nuclear norm ball problem. In this paper, we propose an accelerated projection-free algorithm which can achieve a faster convergence rate and avoids the expensive projection that requires a full matrix decomposition. Our method relies on a different oracle from the linear optimization oracle of Frank-Wolfe, which avoids an existing lower bound result for algorithms that rely on the linear optimization oracle. Still, the cost of our oracle is similar to the cost of the linear optimization oracle of Frank-Wolfe. Furthermore, the calls to the oracle in our method are easily parallelizable and consequently another level of acceleration can be achieved by exploiting multiple computational resources, while parallelization of the calls to the oracle remains an obstacle to the Frank-Wolfe method."
+abstract = "Federated optimization is a new form of distributed training on very large datasets that leverages many devices each containing local data. While decentralized computation can lead to significant speed-ups due to parallelization, some centralization is still required: devices must aggregate their parameter updates through synchronization across the network. The potential for communication bottleneck is significant. The two main methods to tackle this issue are (a) smarter optimization that decreases the frequency of communication rounds and (b) using compression techniques such as quantization and sparsification to reduce the number of bits machines need to transmit. In this paper, we provide a novel algorithm, Federated optimization algorithm with Acceleration and Quantization (FedAQ), with improved theoretical guarantees by combining an accelerated method of federated averaging, reducing the number of training and synchronization steps, with an efficient quantization scheme that significantly reduces communication complexity."
 
 # Featured image thumbnail (optional)
 image_preview = ""
@@ -47,7 +47,7 @@ tags = []
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
 # url_custom = [{name = "pdf", url = "http://bhuveshkumar.com/pdf/learning_auctions.pdf"},{name = "NeurIPS", url = "http://papers.nips.cc/paper/9334-learning-auctions-with-robust-incentive-guarantees"}, {name = "Poster", url = "http://bhuveshkumar.com/pdf/LearnAuction_poster.pdf"}]
-url_custom = []
+
 
 # Digital Object Identifier (DOI)
 doi = ""
