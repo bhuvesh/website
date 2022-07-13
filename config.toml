@@ -1,6 +1,6 @@
 baseurl = "http://bhuveshkumar.com/"  # End your URL with a `/` trailing slash.
 title = "Bhuvesh Kumar"
-copyright = "&copy; 2016 Bhuvesh Kumar"
+copyright = "&copy; 2022 Bhuvesh Kumar"
 theme = "myacademic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
@@ -27,7 +27,7 @@ defaultContentLanguageInSubdir = false
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "bhuvesh@gatech.edu"
   phone = "1 404 259-4524"
-  skype = "kumar.bhuvesh"
+  skype = ""
   telegram = ""
 
   # Enable Keybase in Contact section by entering your keybase.io username.

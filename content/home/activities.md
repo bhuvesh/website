@@ -15,7 +15,7 @@ weight = 65
 +++
 
 ### Georgia Tech
-- I am the founding vice-president of the newly formed [School of Computer Science Graduate Student Association](https://scsgsa.cc.gatech.edu/) for the 2021-2022 academic year.
+- I was the founding vice-president of the newly formed [School of Computer Science Graduate Student Association](https://scsgsa.cc.gatech.edu/) for the 2021-2022 academic year.
 - I was the student nominee for faculty hiring at the School of Computer Science at Georgia Tech for the 2019-2020 academic year. I organized student meetings for the faculty candidates and represented the student body in faculty hiring decisions.
 - I used to co-organise the Georgia Tech [ACO student seminar](http://people.math.gatech.edu/~hguo70/ACO_Student_Seminar.html).
 - We have a [reading group](https://mltheory.github.io/readinggroup/) on machine learning theory.  
