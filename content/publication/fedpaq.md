@@ -18,8 +18,8 @@ authors = ["with Yeojoon Youn", "and Jacob Abernethy"]
 publication_types = ["3"]
 
 # Publication name and optional abbreviated version.
-publication = "in submission"
-publication_short = "in submission"
+publication = "Oral at Federated Learning Workshop, NeurIPS 2022"
+publication_short = "Oral at Federated Learning Worshop, NeurIPS 2022"
 
 # Abstract and optional shortened version.
 abstract = "Federated optimization is a new form of distributed training on very large datasets that leverages many devices each containing local data. While decentralized computation can lead to significant speed-ups due to parallelization, some centralization is still required: devices must aggregate their parameter updates through synchronization across the network. The potential for communication bottleneck is significant. The two main methods to tackle this issue are (a) smarter optimization that decreases the frequency of communication rounds and (b) using compression techniques such as quantization and sparsification to reduce the number of bits machines need to transmit. In this paper, we provide a novel algorithm, Federated optimization algorithm with Acceleration and Quantization (FedAQ), with improved theoretical guarantees by combining an accelerated method of federated averaging, reducing the number of training and synchronization steps, with an efficient quantization scheme that significantly reduces communication complexity."
